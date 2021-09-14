@@ -1,0 +1,69 @@
+#logo {
+    position: absolute;
+    left: 165px;
+    top: 30px;
+    z-index: 2;
+}
+#kt {
+    position: absolute;
+    left:150px;
+    top: 500px;
+}
+#samsung {
+    position: absolute;
+    left:280px;
+    top: 500px;
+}
+#lg {
+    position: absolute;
+    left:410px;
+    top: 500px;
+}
+#kiwoom {
+    position: absolute;
+    left:540px;
+    top: 500px;
+}
+#nc {
+    position: absolute;
+    left:670px;
+    top: 500px;
+}
+#ssg {
+    position: absolute;
+    left:800px;
+    top: 500px;
+}
+#doosan {
+    position: absolute;
+    left:930px;
+    top: 500px;
+}
+#lotte {
+    position: absolute;
+    left:1060px;
+    top: 500px;
+}
+#kia {
+    position: absolute;
+    left:1190px;
+    top: 500px;
+}
+#hanwha {
+    position: absolute;
+    left:1320px;
+    top: 500px;
+}
+#kbodf  {
+    position: absolute;
+    
+    top: 138px;
+    left:-200px;
+    z-index: 1;
+}
+#draft{
+    position: absolute;
+    top: 278px;
+    left: 817px;
+    z-index: 2;
+}
