@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>login</title>
+    <script>
+
+        $(document).ready(function(){
+      
+          $('.slider').bxSlider();
+      
+        });
+      </script>
+</head>
+<body>
+    <div id="logo">
+        <a href="index.html"><img src="images/kbologo.jpg" alt="kbo" height="100"></a>
+    </div>
+    <div class="banner">
+        <div class="bannerBox">
+            <li><a href="login.html" style="color: black;" >로그인   |</li></a>
+            <li>회원가입   |</li>
+            <li>ENGLISH   |</li>
+            <li><input type="text"></li>
+            <button id="btn" onClick="window.location.reload()">검색</button>
+        </div>
+    </div>
+
+    <div id="kiabanner">
+        <img src="images/kiabanner.png" alt="">
+    </div>
+
+    <div id="log">
+    ID : <input type="text" placeholder="ID 입력" id="userid"><br>
+    비밀번호 : <input type="password" placeholder="비밀번호 입력" id="userpw">
+    <input type="button" value="로그인" id="signinButton">
+    </div>
+    <div class="slide_wrapper">
+        <ul class="slides">
+            <li><img src="images/1번타자.png" alt=""></li>
+            <li><img src="images/2번타자.png" alt=""></li>
+            <li><img src="images/3번타자.png" alt=""></li>
+            <li><img src="images/4번타자.png" alt=""></li>
+            <li><img src="images/5번타자.png" alt=""></li>
+            <li><img src="images/6번타자.png" alt=""></li>
+            <li><img src="images/7번타자.png" alt=""></li>
+            <li><img src="images/8번타자.png" alt=""></li>
+            <li><img src="images/9번타자.png" alt=""></li>
+        </ul>
+    </div>
+    <audio src="images/응원가.mp3" autoplay controls>
+        브라우저가 오디오를 지원하지 않습니다.
+    </audio>
+    <p class="controls">
+        <span class="prev">prev</span>
+        <span class="next">next</span>
+    </p>
+</body>
+
+<script src="./JS/index.js"></script>
+<script>
+    moveleft();
+</script>
+</html>
