@@ -1,0 +1,109 @@
+*{margin: 0; padding: 0;}
+
+.hidden{
+    display: none;
+}
+
+span {
+    color: white;
+}
+
+img{
+    position: fixed;
+    top: 0px;
+    z-index: -100;
+    width: 100%;
+    height: 100%;
+}
+.warp{
+    width: 100%;
+    height: 1500px;
+
+    display: flex;
+    justify-content: center;
+}
+.cententwarp{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding-top: 150px;
+    width: 500px;
+    height: 700px;
+}
+
+#clock{
+    font-size: 125px;
+}
+
+#login-form{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+.loginborder{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    /* border: 1px solid gray; */
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+}
+.loginborder2{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    /* border: 1px solid gray; */
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+}
+.loginborder:hover{
+    border: 1px solid gray;
+}
+.loginborder input{
+    width: 350px;
+    margin-left: 10px;
+    font-size: 25px;
+    border: none;
+    outline: none;
+}
+.loginborder2 input{
+    width: 450px;
+    margin-left: 10px;
+    font-size: 25px;
+    border: none;
+    outline: none;
+}
+#login-form #submitid{
+    border-radius: 5px;
+    border:none;
+    width: 50px;
+    color: gray;
+}
+
+#todo-form{
+    margin: 10px 0;
+}
+
+#todolist{
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+#todolist li{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+#todolist .buttonstyle{
+background: transparent;    
+border:none;
+}
+
+
+#quote{
+    margin-top: 100px;
+}
