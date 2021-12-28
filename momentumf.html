@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+<body>
+    <div class="warp">
+
+        <div class="cententwarp">
+
+            <h2 id="clock">00:00:00</h2>
+
+            <form class="login-form" class="hidden">
+                <div class="loginborder">
+                    <input type="text" required maxlength="15" placeholder="What is your name?">
+                </div>
+                <input id="submitid" type="submit" value="login">
+            </form>
+
+            <h1 id="greeting" class="hidden"></h1>
+            
+            <form id="todo-form">
+                <div class="loginborder2">
+                <input type="text" placeholder="Write a To do and Press Enter" required> <!-- 반드시 입력되어야함 -->
+                </div>
+            </form>
+            <ul id="todolist">
+                
+            </ul>
+            
+            <div id="quote">   
+                <span></span>
+                <span></span>
+            </div>
+        
+            <div id="weather">
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+    
+    </div>
+
+
+
+    <script src="/JAVASCRIPT/greeting.js"></script>
+    <script src="/JAVASCRIPT/clock.js"></script>
+    <script src="/JAVASCRIPT/quotes.js"></script>
+    <script src="/JAVASCRIPT/background.js"></script>
+    <script src="/JAVASCRIPT/todo.js"></script>
+    <script src="/JAVASCRIPT/weather.js"></script>
+</body>
+
+</html>
